@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+body{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background: #e3f2fd;
+}
+
+.top{
+    width: 65vw;
+    text-align: center;
+    padding: 10px;
+    height: 70px;
+    overflow: hidden;
+    margin: auto;
+   
+}
+.detalhes-jogo{
+    color: #b8c6dc;
+    font-weight: 500;
+    font-size: 1.2rem;
+    justify-content: center;
+    
+
+    
+}
+.detalhes-jogo span{
+
+    justify-content: space-between;
+   
+}
+
+.capa{
+    display: flex;
+    flex-direction: row;
+    width: 65vw;
+    height: 70vh;
+    overflow: hidden;
+    justify-content: center;
+    background: #293447;
+    border-radius: 5px;
+    box-shadow: 0 20px 40px rgba(52, 87, 220, 0.2);
+    margin: auto;
+}
+
+.meio{
+    flex: 100 1 100vw;
+    width: 90%;
+    overflow: hidden;
+}
+
+
+.controles-laterais{
+    overflow: hidden;
+    display:flex ;
+    flex-direction: column;
+    width: calc(10vw);
+}
+.controles-laterais i{
+    line-height: 250px;
+    height: calc(100vh / 2);
+    width: 10vw;
+    color: #b8c6dc;
+    background-color: #171b26;
+    border: white;
+    align-items: center;
+    
+}
+.tabuleiro{
+    width: 540px;
+    height: 650px;
+}
+#tetris{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    background: #212837;
+    grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+}
+
+
+.controles{
+    display: none;
+    color: #b8c6dc;
+    background-color: #171b26;
+    border: white;
+   
+}
+
+.controles i{
+    display: flex;
+    padding: 25px 0;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #b8c6dc;
+    width: calc(100% / 3);
+    cursor: pointer;
+    border-right: 1px solid #171b26;
+}
+
+
+@media screen and (max-width: 800px) {
+    .capa{
+        height: 700px;
+        width: 80vmin;
+        flex-direction: column;
+        
+    }
+
+    .detalhes-jogo{
+        font-size: 1rem;
+        padding: 15px 27px;
+    }
+    .controles-laterais{
+        display: none;
+    }
+    
+    .controles{
+        overflow: hidden;
+        display: flex;
+        line-height: 250px;
+        width: 100vw;
+        align-items: center;
+        
+        
+    }
+    .tabuleiro{
+        margin: auto;
+    }
+
+    .controles i{
+        padding: 15px 0;
+        font-size: 1rem;
+        width: calc(100vw / 4);
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 682px) {
+    .capa{
+        height: 700px;
+        width: 600px;
+        flex-direction: column;
+        
+        
+    }
+    
+    .detalhes-jogo{
+        font-size: 1rem;
+        padding: 15px 27px;
+    }
+    .controles-laterais{
+        display: none;
+    }
+    
+    .controles{
+        overflow: hidden;
+        display: flex;
+        line-height: 250px;
+        width: 100vw;
+        align-items: center;
+        
+        
+    }
+    .tabuleiro{
+        margin: auto;
+        width: 650px;
+    }
+
+    .controles i{
+        padding: 15px 0;
+        font-size: 1rem;
+        width: calc(100vw / 4);
+        align-items: center;
+    }
+}
