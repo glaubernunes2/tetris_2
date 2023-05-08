@@ -112,7 +112,7 @@ body{
 @media screen and (max-width: 800px) {
     .capa{
         height: 700px;
-        width: 50vmin;
+        width: 80vmin;
         flex-direction: column;
         
     }
@@ -147,9 +147,8 @@ body{
 }
 
 
-
-@media screen and (min-width: 682px) {
-    /* falta concerta essa parte aqui*/
+/*@media screen and (min-width: 682px) {
+    // falta concerta essa parte aqui
     .capa{
         height: 66vh;
         width: 40vw;
@@ -190,7 +189,7 @@ body{
         width: calc(100vw / 4);
         align-items: center;
     }
-}
+}*/
 
 
 
@@ -233,4 +232,5 @@ body{
         align-items: center;
     }
 }
+
 
