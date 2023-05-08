@@ -197,7 +197,7 @@ body{
     /* falta concerta essa parte aqui*/
     .capa{
         height: 66vh;
-        width: 40vw;
+        width: 90vw; /*falta ajeitar*/
         flex-direction: column;
         
         
