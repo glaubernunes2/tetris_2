@@ -112,7 +112,7 @@ body{
 @media screen and (max-width: 800px) {
     .capa{
         height: 700px;
-        width: 60vmin;
+        width: 50vmin;
         flex-direction: column;
         
     }
