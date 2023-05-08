@@ -147,10 +147,58 @@ body{
 }
 
 
-@media screen and (max-width: 682px) {
+
+@media screen and (min-width: 682px) {
+    /* falta concerta essa parte aqui*/
     .capa{
-        height: 700px;
-        width: 600px;
+        height: 66vh;
+        width: 47vw;
+        flex-direction: column;
+        
+        
+    }
+    main{
+        height: 90vh;
+        width: 94vw;
+    
+    }
+    
+    .detalhes-jogo{
+        font-size: 1rem;
+        padding: 15px 27px;
+    }
+    .controles-laterais{
+        display: none;
+    }
+    
+    .controles{
+        overflow: hidden;
+        display: flex;
+        width: 100vw;
+        align-items: center;
+        
+        
+    }
+    .tabuleiro{
+        margin: auto;
+        width: 650px;
+    }
+
+    .controles i{
+        padding: 15px 0;
+        font-size: 1rem;
+        width: calc(100vw / 4);
+        align-items: center;
+    }
+}
+
+
+
+@media screen and (max-width: 375px) {
+    /* falta concerta essa parte aqui*/
+    .capa{
+        height: 66vh;
+        width: 37vw;
         flex-direction: column;
         
         
@@ -175,7 +223,7 @@ body{
     }
     .tabuleiro{
         margin: auto;
-        width: 650px;
+        width: 350px;
     }
 
     .controles i{
@@ -185,3 +233,4 @@ body{
         align-items: center;
     }
 }
+
