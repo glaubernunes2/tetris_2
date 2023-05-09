@@ -241,9 +241,9 @@ body{
 @media screen and (max-width: 629px) {
     /* falta concerta essa parte aqui*/
     .capa{
-        background-color: blue;
+        background-color: green;
         height: 84vh;
-        width: 78vw; /*falta ajeitar*/
+        width: 85vw; /*falta ajeitar*/
         flex-direction: column;
           
     }
