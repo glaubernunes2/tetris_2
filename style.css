@@ -111,6 +111,7 @@ body{
 
 @media screen and (max-width: 800px) {
     .capa{
+        background-color: darkblue;
         height: 700px;
         width: 80vmin;
         flex-direction: column;
@@ -193,14 +194,59 @@ body{
 
 
 
+/*@media screen and (max-width: 600px) {
+    //* falta concerta essa parte aqui
+    .capa{
+        height: 100vh;
+        width: 90vw; //*falta ajeitar
+        flex-direction: column;
+        overflow: hidden;
+        
+    }
+    
+    
+    .detalhes-jogo{
+        font-size: 1rem;
+        padding: 15px 27px;
+    }
+    .controles-laterais{
+        display: none;
+    }
+    
+    .controles{
+        overflow: hidden;
+        display: flex;
+        width: 100vw;
+        align-items: center;
+        
+        
+    }
+    .tabuleiro{
+        display: flex;
+        margin: auto;
+        height: 100vmin;
+        justify-content: center;
+        overflow: hidden;
+        
+    }
+
+    .controles i{
+        padding: 15px 0;
+        font-size: 1rem;
+        width: calc(100vw / 4);
+        align-items: center;
+    }
+}*/
+
+
 @media screen and (max-width: 375px) {
     /* falta concerta essa parte aqui*/
     .capa{
+        background-color: blueviolet;
         height: 66vh;
-        width: 90vw; /*falta ajeitar*/
+        width: 80vw; /*falta ajeitar*/
         flex-direction: column;
-        
-        
+          
     }
     
     .detalhes-jogo{
@@ -232,5 +278,3 @@ body{
         align-items: center;
     }
 }
-
-
