@@ -110,8 +110,11 @@ body{
 
 
 @media screen and (max-width: 800px) {
+    body{
+        background-color: yellowgreen;
+    }
     .capa{
-        background-color: darkblue;
+       
         height: 700px;
         width: 80vmin;
         flex-direction: column;
@@ -241,8 +244,11 @@ body{
 
 @media screen and (max-width: 375px) {
     /* falta concerta essa parte aqui*/
-    .capa{
+    body{
         background-color: blueviolet;
+    }
+    .capa{
+        
         height: 66vh;
         width: 80vw; /*falta ajeitar*/
         flex-direction: column;
