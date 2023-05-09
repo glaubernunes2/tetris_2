@@ -112,7 +112,7 @@ body{
 @media screen and (max-width: 800px) {
    
     .capa{
-       
+       background-color: red;
         height: 700px;
         width: 80vmin;
         flex-direction: column;
