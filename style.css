@@ -77,7 +77,7 @@ body{
     
 }
 .tabuleiro{
-    width: 540px;
+    width: 500px;
     height: 650px;
 }
 #tetris{
@@ -110,9 +110,7 @@ body{
 
 
 @media screen and (max-width: 800px) {
-    body{
-        background-color: yellowgreen;
-    }
+   
     .capa{
        
         height: 700px;
@@ -244,9 +242,6 @@ body{
 
 @media screen and (max-width: 375px) {
     /* falta concerta essa parte aqui*/
-    body{
-        background-color: blueviolet;
-    }
     .capa{
         
         height: 66vh;
