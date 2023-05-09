@@ -279,3 +279,43 @@ body{
         align-items: center;
     }
 }
+
+@media screen and (max-width: 600px) {
+    /* falta concerta essa parte aqui*/
+    .capa{
+        background-color: blue;
+        height: 84vh;
+        width: 85vw; /*falta ajeitar*/
+        flex-direction: column;
+          
+    }
+    
+    .detalhes-jogo{
+        font-size: 1rem;
+        padding: 15px 27px;
+    }
+    .controles-laterais{
+        display: none;
+    }
+    
+    .controles{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        
+        
+    }
+    .tabuleiro{
+        margin: auto;
+        width: 300px;
+    }
+
+    .controles i{
+        text-align: right;
+        padding: 15px 0;
+        font-size: 1rem;
+        width: calc(100vw / 4);
+        align-items: center;
+    }
+}
