@@ -99,7 +99,6 @@ body{
 
 .controles i{
     display: flex;
-    padding: 25px 0;
     text-align: center;
     font-size: 1.3rem;
     color: #b8c6dc;
@@ -131,6 +130,7 @@ body{
         overflow: hidden;
         display: flex;
         width: 100vw;
+        text-align: center;
         align-items: center;
         
         
@@ -140,9 +140,11 @@ body{
     }
 
     .controles i{
+        padding-left: 10px;
         font-size: 1rem;
         width:21%;
         align-items: center;
+        
     }
 }
 
@@ -257,10 +259,9 @@ body{
     }
     
     .controles{
-        overflow: hidden;
         display: flex;
         width: 100%;
-        
+        text-align: center;
         align-items: center;
         
         
@@ -271,7 +272,7 @@ body{
     }
 
     .controles i{
-        text-align: center;
+        text-align: right;
         padding: 15px 0;
         font-size: 1rem;
         width: calc(100vw / 4);
