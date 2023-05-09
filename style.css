@@ -103,7 +103,7 @@ body{
     text-align: center;
     font-size: 1.3rem;
     color: #b8c6dc;
-    width: calc(100% / 3);
+    width: calc(100% / 4);
     cursor: pointer;
     border-right: 1px solid #171b26;
 }
@@ -140,9 +140,8 @@ body{
     }
 
     .controles i{
-        padding: 15px 0;
         font-size: 1rem;
-        width: calc(80vw / 4);
+        width:21%;
         align-items: center;
     }
 }
@@ -260,7 +259,8 @@ body{
     .controles{
         overflow: hidden;
         display: flex;
-        width: 100vw;
+        width: 81vw;
+        
         align-items: center;
         
         
@@ -271,6 +271,7 @@ body{
     }
 
     .controles i{
+        text-align: center;
         padding: 15px 0;
         font-size: 1rem;
         width: calc(800vw / 4);
